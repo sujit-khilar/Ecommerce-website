@@ -1,0 +1,940 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <script src="https://unpkg.com/scrollreveal"></script>
+
+   <!-- Link Swiper's CSS -->
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+   <link rel="stylesheet" href="style.css">
+   <title>Khilar E-Bazar</title>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+   <div class="top_nav">
+      <div class="container top_nav_container">
+         <div class="top_nav_wrapper">
+            <p class="top_nav_p">
+               Summer sale for All Swim And Free Express Delivery - OFF 50%!
+            </p>
+            <a href="#" class="top_nav_link">SHOP NOW</a>
+         </div>
+      </div>
+   </div>
+   <nav class="nav">
+      <div class="container nav_container">
+         <a href="#" class="nav_logo">KHILAR</a>
+         <ul class="nav_list">
+            <li class="nav_item"><a href="/" class="nav_link">Home</a></li>
+            <li class="nav_item"><a href="./about.html" class="nav_link">About</a></li>
+            <li class="nav_item"><a href="" class="nav_link">Contact</a></li>
+            <li class="nav_item"><a href="/sign-up.html" class="nav_link">Sign up</a></li>
+         </ul>
+         <div class="nav_items">
+            <form action="#" class="nav_form">
+               <input type="text" class="nav_input" placeholder="Search here..." />
+               <i class="fa-solid fa-magnifying-glass nav_search"></i>
+            </form>
+            <i class="fa-regular fa-heart nav_heart"></i>
+            <a href="/cart.html">
+            <i class="fa-solid fa-cart-shopping nav_cart"></i>               
+            </a>
+         </div>
+      </div>
+   </nav>
+
+   <header class="header">
+      <div class="container header_container">
+         <div class="header_filter">
+            <a href="#" class="header_filter_link">Men's Fashion</a>
+            <a href="#" class="header_filter_link">Women's Fashion</a>
+            <a href="#" class="header_filter_link">Electronics</a>
+            <a href="#" class="header_filter_link">Home & Lifestyle</a>
+            <a href="#" class="header_filter_link">Medicine</a>
+            <a href="#" class="header_filter_link">Sports & Outdoor</a>
+            <a href="#" class="header_filter_link">Baby's & Toys</a>
+            <a href="#" class="header_filter_link">Groceries & Pets</a>
+            <a href="#" class="header_filter_link">Health &Beauty</a>
+         </div>
+         <img src="./image/iphone15.jpg" alt="" class="header_img" width="900">
+      </div>
+   </header>
+
+   <section class="section">
+      <div class="container">
+         <div class="section_category">
+            <p class="section_category_p">Today's</p>
+         </div>
+         <div class="section_header">
+            <h3 class="section_title">Flash Sale</h3>
+            <p id="demo"></p>
+         </div>
+
+         <!-- Swiper -->
+         <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+               <div class="swiper-slide">
+                  <div class="card">
+                     <div class="card_top">
+                        <img src="./image/item/item-1.jpg" alt="" class="card_img">
+                        <div class="card_tag">-40%</div>
+                        <div class="card_top_icons"><i class="fa-regular fa-heart card_top_icon"></i>
+                           <i class="fa-regular fa-eye card_top_icon"></i>
+                        </div>
+                     </div>
+                     <div class="card_body">
+                        <h3 class="card_title">EvoFox Elite Gamepad</h3>
+                        <p class="card_price">₹1,419</p>
+                        <div class="card_ratings">
+                           <div class="card_stars">
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                           </div>
+                           <p class="card_rating_numbers">(90)</p>
+                        </div>
+                        <button class="add_to_cart"
+                        data-id="1"
+                        data-title="EvoFox Elite Gamepad"
+                        data-image="./image/item/item-1.jpg"
+                        data-price="1,419">Add to cart</button>
+                     </div>
+                  </div>
+               </div>
+               <div class="swiper-slide">
+                  <div class="card">
+                     <div class="card_top">
+                        <img src="./image/item/item-2.webp" alt="" class="card_img">
+                        <div class="card_tag">-40%</div>
+                        <div class="card_top_icons"><i class="fa-regular fa-heart card_top_icon"></i>
+                           <i class="fa-regular fa-eye card_top_icon"></i>
+                        </div>
+                     </div>
+                     <div class="card_body">
+                        <h3 class="card_title">RPM Euro keyboard</h3>
+                        <p class="card_price">₹699</p>
+                        <div class="card_ratings">
+                           <div class="card_stars">
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                           </div>
+                           <p class="card_rating_numbers">(754)</p>
+                        </div>
+                        <button class="add_to_cart"
+                        data-id="2"
+                        data-title="RPM Euro keyboard"
+                        data-image="./image/item/item-2.webp"
+                        data-price="699">Add to cart</button>
+                     </div>
+                  </div>
+               </div>
+               <div class="swiper-slide">
+                  <div class="card">
+                     <div class="card_top">
+                        <img src="./image/item/item-3.jpg" alt="" class="card_img">
+                        <div class="card_tag">-40%</div>
+                        <div class="card_top_icons"><i class="fa-regular fa-heart card_top_icon"></i>
+                           <i class="fa-regular fa-eye card_top_icon"></i>
+                        </div>
+                     </div>
+                     <div class="card_body">
+                        <h3 class="card_title">Amazon Basics Gaming Monitor</h3>
+                        <p class="card_price">₹12,499</p>
+                        <div class="card_ratings">
+                           <div class="card_stars">
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                           </div>
+                           <p class="card_rating_numbers">(219)</p>
+                        </div>
+                        <button class="add_to_cart"
+                        data-id="3"
+                        data-title="Basics Gaming Monitor"
+                        data-image="./image/item/item-3.jpg"
+                        data-price="12,499">Add to cart</button>
+                     </div>
+                  </div>
+               </div>
+               <div class="swiper-slide">
+                  <div class="card">
+                     <div class="card_top">
+                        <img src="./image/item/item-4.webp" alt="" class="card_img">
+                        <div class="card_tag">-40%</div>
+                        <div class="card_top_icons"><i class="fa-regular fa-heart card_top_icon"></i>
+                           <i class="fa-regular fa-eye card_top_icon"></i>
+                        </div>
+                     </div>
+                     <div class="card_body">
+                        <h3 class="card_title">Wakefit chair</h3>
+                        <p class="card_price">₹7,499</p>
+                        <div class="card_ratings">
+                           <div class="card_stars">
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                           </div>
+                           <p class="card_rating_numbers">(65)</p>
+                        </div>
+                        <button class="add_to_cart"
+                        data-id="4"
+                        data-title="Wakefit chair"
+                        data-image="./image/item/item-4.webp"
+                        data-price="7,499">Add to cart</button>
+                     </div>
+                  </div>
+               </div>
+               <div class="swiper-slide">
+                  <div class="card">
+                     <div class="card_top">
+                        <img src="./image/item/item-5.jpg" alt="" class="card_img">
+                        <div class="card_tag">-40%</div>
+                        <div class="card_top_icons"><i class="fa-regular fa-heart card_top_icon"></i>
+                           <i class="fa-regular fa-eye card_top_icon"></i>
+                        </div>
+                     </div>
+                     <div class="card_body">
+                        <h3 class="card_title">Ski Jackets Men</h3>
+                        <p class="card_price">₹2,419</p>
+                        <div class="card_ratings">
+                           <div class="card_stars">
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                           </div>
+                           <p class="card_rating_numbers">(56)</p>
+                        </div>
+                        <button class="add_to_cart"
+                        data-id="5"
+                        data-title="Ski Jackets Men"
+                        data-image="./image/item/item-5.jpg"
+                        data-price="2,419">Add to cart</button>
+                     </div>
+                  </div>
+               </div>
+               <div class="swiper-slide">
+                  <div class="card">
+                     <div class="card_top">
+                        <img src="./image/item/item-6.jpg" alt="" class="card_img">
+                        <div class="card_tag">-40%</div>
+                        <div class="card_top_icons"><i class="fa-regular fa-heart card_top_icon"></i>
+                           <i class="fa-regular fa-eye card_top_icon"></i>
+                        </div>
+                     </div>
+                     <div class="card_body">
+                        <h3 class="card_title">Audioengine Bluetooth speaker</h3>
+                        <p class="card_price">₹50,304</p>
+                        <div class="card_ratings">
+                           <div class="card_stars">
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                           </div>
+                           <p class="card_rating_numbers">(453)</p>
+                        </div>
+                        <button class="add_to_cart"
+                        data-id="6"
+                        data-title="Audioengine Bluetooth speaker"
+                        data-image="./image/item/item-6.jpg"
+                        data-price="50,304">Add to cart</button>
+                     </div>
+                  </div>
+               </div>
+               <div class="swiper-slide">
+                  <div class="card">
+                     <div class="card_top">
+                        <img src="./image/item/item-7.jpg" alt="" class="card_img">
+                        <div class="card_tag">-40%</div>
+                        <div class="card_top_icons"><i class="fa-regular fa-heart card_top_icon"></i>
+                           <i class="fa-regular fa-eye card_top_icon"></i>
+                        </div>
+                     </div>
+                     <div class="card_body">
+                        <h3 class="card_title">Laptop Bag</h3>
+                        <p class="card_price">₹649</p>
+                        <div class="card_ratings">
+                           <div class="card_stars">
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                           </div>
+                           <p class="card_rating_numbers">(158)</p>
+                        </div>
+                        <button class="add_to_cart"
+                        data-id="7"
+                        data-title="Laptop Bag"
+                        data-image="./image/item/item-7.jpg"
+                        data-price="649">Add to cart</button>
+                     </div>
+                  </div>
+               </div>
+               <div class="swiper-slide">
+                  <div class="card">
+                     <div class="card_top">
+                        <img src="./image/item/item-8.jpg" alt="" class="card_img">
+                        <div class="card_tag">-40%</div>
+                        <div class="card_top_icons"><i class="fa-regular fa-heart card_top_icon"></i>
+                           <i class="fa-regular fa-eye card_top_icon"></i>
+                        </div>
+                     </div>
+                     <div class="card_body">
+                        <h3 class="card_title">Wood Book shelf</h3>
+                        <p class="card_price">₹7,419</p>
+                        <div class="card_ratings">
+                           <div class="card_stars">
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                           </div>
+                           <p class="card_rating_numbers">(28)</p>
+                        </div>
+                        <button class="add_to_cart"
+                        data-id="8"
+                        data-title="Wood Book shelf"
+                        data-image="./image/item/item-8.jpg"
+                        data-price="7,419">Add to cart</button>
+                     </div>
+                  </div>
+               </div>
+
+            </div>
+            <div class="swiper-pagination"></div>
+
+         </div>
+         <div class="container_btn"><a href="#" class="container_btn_a">VIEW ALL PRODUCTS</a></div>
+      </div>
+   </section>
+
+   <section class="section">
+      <div class="container">
+         <div class="container">
+            <div class="section_category">
+               <p class="section_category_p">categories</p>
+            </div>
+            <div class="section_header">
+               <h3 class="section_title">Browse by Category</h3>
+            </div>
+            <div class="categories">
+               <div class="category"><img src="./image/icons/camera.jpeg" alt="" class="category_icon">
+                  <p class="category_name">Cameras</p>
+               </div>
+               <div class="category"><img src="./image/icons/computer.webp" alt="" class="category_icon">
+                  <p class="category_name">computers</p>
+               </div>
+               <div class="category"><img src="./image/icons/gaming.webp" alt="" class="category_icon">
+                  <p class="category_name">Gaming</p>
+               </div>
+               <div class="category"><img src="./image/icons/headphone.jpg" alt="" class="category_icon">
+                  <p class="category_name">Headphones</p>
+               </div>
+               <div class="category"><img src="./image/icons/phone.jpg" alt="" class="category_icon">
+                  <p class="category_name">Phones</p>
+               </div>
+               <div class="category"><img src="./image/icons/watch.webp" alt="" class="category_icon">
+                  <p class="category_name">Watches</p>
+               </div>
+            </div>
+         </div>
+   </section>
+
+   <section class="section">
+      <div class="container">
+         <div class="section_category">
+            <p class="section_category_p">This Month</p>
+         </div>
+         <div class="section_header">
+            <h3 class="section_title">Best Selling Products</h3>
+            <p id="demo"></p>
+         </div>
+
+         <!-- Swiper -->
+         <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+               <div class="swiper-slide">
+                  <div class="card">
+                     <div class="card_top">
+                        <img src="./image/item/item-5.jpg" alt="" class="card_img">
+                        <div class="card_tag">-40%</div>
+                        <div class="card_top_icons"><i class="fa-regular fa-heart card_top_icon"></i>
+                           <i class="fa-regular fa-eye card_top_icon"></i>
+                        </div>
+                     </div>
+                     <div class="card_body">
+                        <h3 class="card_title">Ski Jackets Men</h3>
+                        <p class="card_price">₹2,419</p>
+                        <div class="card_ratings">
+                           <div class="card_stars">
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                           </div>
+                           <p class="card_rating_numbers">(56)</p>
+                        </div>
+                        <button class="add_to_cart"
+                        data-id="5"
+                        data-title="Ski Jackets Men"
+                        data-image="./image/item/item-5.jpg"
+                        data-price="2,419">Add to cart</button>
+                     </div>
+                  </div>
+               </div>
+               <div class="swiper-slide">
+                  <div class="card">
+                     <div class="card_top">
+                        <img src="./image/item/item-6.jpg" alt="" class="card_img">
+                        <div class="card_tag">-40%</div>
+                        <div class="card_top_icons"><i class="fa-regular fa-heart card_top_icon"></i>
+                           <i class="fa-regular fa-eye card_top_icon"></i>
+                        </div>
+                     </div>
+                     <div class="card_body">
+                        <h3 class="card_title">Audioengine Bluetooth speaker</h3>
+                        <p class="card_price">₹50,304</p>
+                        <div class="card_ratings">
+                           <div class="card_stars">
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                           </div>
+                           <p class="card_rating_numbers">(453)</p>
+                        </div>
+                        <button class="add_to_cart"
+                        data-id="6"
+                        data-title="Audioengine Bluetooth speaker"
+                        data-image="./image/item/item-6.jpg"
+                        data-price="50,304">Add to cart</button>
+                     </div>
+                  </div>
+               </div>
+               <div class="swiper-slide">
+                  <div class="card">
+                     <div class="card_top">
+                        <img src="./image/item/item-7.jpg" alt="" class="card_img">
+                        <div class="card_tag">-40%</div>
+                        <div class="card_top_icons"><i class="fa-regular fa-heart card_top_icon"></i>
+                           <i class="fa-regular fa-eye card_top_icon"></i>
+                        </div>
+                     </div>
+                     <div class="card_body">
+                        <h3 class="card_title">Laptop Bag</h3>
+                        <p class="card_price">₹649</p>
+                        <div class="card_ratings">
+                           <div class="card_stars">
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                           </div>
+                           <p class="card_rating_numbers">(158)</p>
+                        </div>
+                        <button class="add_to_cart"
+                        data-id="7"
+                        data-title="Laptop Bag"
+                        data-image="./image/item/item-7.jpg"
+                        data-price="649">Add to cart</button>
+                     </div>
+                  </div>
+               </div>
+               <div class="swiper-slide">
+                  <div class="card">
+                     <div class="card_top">
+                        <img src="./image/item/item-8.jpg" alt="" class="card_img">
+                        <div class="card_tag">-40%</div>
+                        <div class="card_top_icons"><i class="fa-regular fa-heart card_top_icon"></i>
+                           <i class="fa-regular fa-eye card_top_icon"></i>
+                        </div>
+                     </div>
+                     <div class="card_body">
+                        <h3 class="card_title">Wood Book shelf</h3>
+                        <p class="card_price">₹7,419</p>
+                        <div class="card_ratings">
+                           <div class="card_stars">
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                           </div>
+                           <p class="card_rating_numbers">(28)</p>
+                        </div>
+                        <button class="add_to_cart"
+                        data-id="8"
+                        data-title="Wood Book shelf"
+                        data-image="./image/item/item-8.jpg"
+                        data-price="7,419">Add to cart</button>
+                     </div>
+                  </div>
+               </div>
+               <div class="swiper-slide">
+                  <div class="card">
+                     <div class="card_top">
+                        <img src="./image/item/item-1.jpg" alt="" class="card_img">
+                        <div class="card_tag">-40%</div>
+                        <div class="card_top_icons"><i class="fa-regular fa-heart card_top_icon"></i>
+                           <i class="fa-regular fa-eye card_top_icon"></i>
+                        </div>
+                     </div>
+                     <div class="card_body">
+                        <h3 class="card_title">EvoFox Elite Gamepad</h3>
+                        <p class="card_price">₹1,419</p>
+                        <div class="card_ratings">
+                           <div class="card_stars">
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                           </div>
+                           <p class="card_rating_numbers">(90)</p>
+                        </div>
+                        <button class="add_to_cart"
+                        data-id="1"
+                        data-title="EvoFox Elite Gamepad"
+                        data-image="./image/item/item-1.jpg"
+                        data-price="1,419">Add to cart</button>
+                     </div>
+                  </div>
+               </div>
+               <div class="swiper-slide">
+                  <div class="card">
+                     <div class="card_top">
+                        <img src="./image/item/item-2.webp" alt="" class="card_img">
+                        <div class="card_tag">-40%</div>
+                        <div class="card_top_icons"><i class="fa-regular fa-heart card_top_icon"></i>
+                           <i class="fa-regular fa-eye card_top_icon"></i>
+                        </div>
+                     </div>
+                     <div class="card_body">
+                        <h3 class="card_title">RPM Euro keyboard</h3>
+                        <p class="card_price">₹699</p>
+                        <div class="card_ratings">
+                           <div class="card_stars">
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                           </div>
+                           <p class="card_rating_numbers">(754)</p>
+                        </div>
+                        <button class="add_to_cart"
+                        data-id="2"
+                        data-title="RPM Euro keyboard"
+                        data-image="./image/item/item-2.webp"
+                        data-price="699">Add to cart</button>
+                     </div>
+                  </div>
+               </div>
+               <div class="swiper-slide">
+                  <div class="card">
+                     <div class="card_top">
+                        <img src="./image/item/item-3.jpg" alt="" class="card_img">
+                        <div class="card_tag">-40%</div>
+                        <div class="card_top_icons"><i class="fa-regular fa-heart card_top_icon"></i>
+                           <i class="fa-regular fa-eye card_top_icon"></i>
+                        </div>
+                     </div>
+                     <div class="card_body">
+                        <h3 class="card_title">Amazon Basics Gaming Monitor</h3>
+                        <p class="card_price">₹12,499</p>
+                        <div class="card_ratings">
+                           <div class="card_stars">
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                           </div>
+                           <p class="card_rating_numbers">(219)</p>
+                        </div>
+                        <button class="add_to_cart"
+                        data-id="3"
+                        data-title="Basics Gaming Monitor"
+                        data-image="./image/item/item-3.jpg"
+                        data-price="12,499">Add to cart</button>
+                     </div>
+                  </div>
+               </div>
+               <div class="swiper-slide">
+                  <div class="card">
+                     <div class="card_top">
+                        <img src="./image/item/item-4.webp" alt="" class="card_img">
+                        <div class="card_tag">-40%</div>
+                        <div class="card_top_icons"><i class="fa-regular fa-heart card_top_icon"></i>
+                           <i class="fa-regular fa-eye card_top_icon"></i>
+                        </div>
+                     </div>
+                     <div class="card_body">
+                        <h3 class="card_title">Wakefit chair</h3>
+                        <p class="card_price">₹7,499</p>
+                        <div class="card_ratings">
+                           <div class="card_stars">
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                           </div>
+                           <p class="card_rating_numbers">(65)</p>
+                        </div>
+                        <button class="add_to_cart"
+                        data-id="4"
+                        data-title="Wakefit chair"
+                        data-image="./image/item/item-4.webp"
+                        data-price="7,499">Add to cart</button>
+                     </div>
+                  </div>
+               </div>
+
+
+            </div>
+            <div class="swiper-pagination"></div>
+
+         </div>
+         <div class="container_btn"><a href="#" class="container_btn_a">VIEW ALL PRODUCTS</a></div>
+      </div>
+   </section>
+
+   <section class="section">
+      <div class="container">
+         <div class="trending">
+            <div class="trending_content">
+               <p class="trending_p">categories</p>
+               <h2 class="trending_title">Enhance Your Music Experience</h2>
+               <a href="#" class="trending_btn">Buy Now!</a>
+            </div>
+            <img src="./image/best_boat_bluetooth_speaker.avif" alt="" class="trending_img">
+         </div>
+      </div>
+   </section>
+
+   <section class="section">
+      <div class="container">
+         <div class="section_category">
+            <p class="section_category_p">Our Products</p>
+         </div>
+         <div class="section_header">
+            <h3 class="section_title">Explore our Products</h3>
+            <p id="demo"></p>
+         </div>
+         <div class="products">
+            <div class="card">
+               <div class="card_top">
+                  <img src="./image/item/item-9.jpg" alt="" class="card_img">
+                  <div class="card_top_icons"><i class="fa-regular fa-heart card_top_icon"></i>
+                     <i class="fa-regular fa-eye card_top_icon"></i>
+                  </div>
+               </div>
+               <div class="card_body">
+                  <h3 class="card_title">pedigree Dry Dog Food</h3>
+                  <p class="card_price">₹877</p>
+                  <div class="card_ratings">
+                     <div class="card_stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                     </div>
+                     <p class="card_rating_numbers">(32)</p>
+                  </div>
+               </div>
+            </div>
+            <div class="card">
+               <div class="card_top">
+                  <img src="./image/item/item-10.jpg" alt="" class="card_img">
+                  <div class="card_top_icons"><i class="fa-regular fa-heart card_top_icon"></i>
+                     <i class="fa-regular fa-eye card_top_icon"></i>
+                  </div>
+               </div>
+               <div class="card_body">
+                  <h3 class="card_title">Instax mini 12 Camera</h3>
+                  <p class="card_price">₹7,499</p>
+                  <div class="card_ratings">
+                     <div class="card_stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                     </div>
+                     <p class="card_rating_numbers">(77)</p>
+                  </div>
+               </div>
+            </div>
+            <div class="card">
+               <div class="card_top">
+                  <img src="./image/item/item-11.jpeg" alt="" class="card_img">
+                  <div class="card_top_icons"><i class="fa-regular fa-heart card_top_icon"></i>
+                     <i class="fa-regular fa-eye card_top_icon"></i>
+                  </div>
+               </div>
+               <div class="card_body">
+                  <h3 class="card_title">Hp pavilion</h3>
+                  <p class="card_price">₹72,999</p>
+                  <div class="card_ratings">
+                     <div class="card_stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                     </div>
+                     <p class="card_rating_numbers">(79)</p>
+                  </div>
+               </div>
+            </div>
+            <div class="card">
+               <div class="card_top">
+                  <img src="./image/item/item-12.jpg" alt="" class="card_img">
+                  <div class="card_top_icons"><i class="fa-regular fa-heart card_top_icon"></i>
+                     <i class="fa-regular fa-eye card_top_icon"></i>
+                  </div>
+               </div>
+               <div class="card_body">
+                  <h3 class="card_title">Lamborghini Toy car</h3>
+                  <p class="card_price">₹1,149</p>
+                  <div class="card_ratings">
+                     <div class="card_stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                     </div>
+                     <p class="card_rating_numbers">(20)</p>
+                  </div>
+               </div>
+            </div>
+            <div class="card">
+               <div class="card_top">
+                  <img src="./image/item/item-13.png" alt="" class="card_img">
+                  <div class="card_top_icons"><i class="fa-regular fa-heart card_top_icon"></i>
+                     <i class="fa-regular fa-eye card_top_icon"></i>
+                  </div>
+               </div>
+               <div class="card_body">
+                  <h3 class="card_title">Nike Revolution 7</h3>
+                  <p class="card_price">₹3,695</p>
+                  <div class="card_ratings">
+                     <div class="card_stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                     </div>
+                     <p class="card_rating_numbers">(77)</p>
+                  </div>
+               </div>
+            </div>
+            <div class="card">
+               <div class="card_top">
+                  <img src="./image/item/item-14.jpg" alt="" class="card_img">
+                  <div class="card_top_icons"><i class="fa-regular fa-heart card_top_icon"></i>
+                     <i class="fa-regular fa-eye card_top_icon"></i>
+                  </div>
+               </div>
+               <div class="card_body">
+                  <h3 class="card_title">Evofox Bluetooth Gamepad</h3>
+                  <p class="card_price">₹2,999</p>
+                  <div class="card_ratings">
+                     <div class="card_stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                     </div>
+                     <p class="card_rating_numbers">(65)</p>
+                  </div>
+               </div>
+            </div>
+            <div class="card">
+               <div class="card_top">
+                  <img src="./image/item/item-15.jpg" alt="" class="card_img">
+                  <div class="card_top_icons"><i class="fa-regular fa-heart card_top_icon"></i>
+                     <i class="fa-regular fa-eye card_top_icon"></i>
+                  </div>
+               </div>
+               <div class="card_body">
+                  <h3 class="card_title">Men's Denim Jacket</h3>
+                  <p class="card_price">₹8,895</p>
+                  <div class="card_ratings">
+                     <div class="card_stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                     </div>
+                     <p class="card_rating_numbers">(39)</p>
+                  </div>
+               </div>
+            </div>
+            <div class="card">
+               <div class="card_top">
+                  <img src="./image/item/item-16.jpg" alt="" class="card_img">
+                  <div class="card_top_icons"><i class="fa-regular fa-heart card_top_icon"></i>
+                     <i class="fa-regular fa-eye card_top_icon"></i>
+                  </div>
+               </div>
+               <div class="card_body">
+                  <h3 class="card_title">Beauty Creams</h3>
+                  <p class="card_price">₹1,119</p>
+                  <div class="card_ratings">
+                     <div class="card_stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                     </div>
+                     <p class="card_rating_numbers">(96)</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="container_btn"><a href="#" class="container_btn_a">VIEW ALL PRODUCTS</a></div>
+      </div>
+   </section>
+
+   <section class="section">
+      <div class="container">
+         <div class="section_category">
+            <p class="section_category_p">Featured</p>
+         </div>
+         <div class="section_header">
+            <h3 class="section_title">New Arrivals</h3>
+         </div>
+         <div class="gallery">
+            <div class="gallery_item gallery_item_1">
+               <img src="./image/gallery/image-1.jpg" alt="" class="gallery_item_img">
+               <div class="gallery_item_content">
+                  <div class="gallery_item_title">Playstation 5</div>
+                  <p class="gallery_item_p">Lorem ipsum dolor sit amet consectetur adipisicing.</p><a href="#"
+                     class="gallery_item_link">SHOP NOW</a>
+               </div>
+            </div>
+            <div class="gallery_item gallery_item_2">
+               <img src="./image/gallery/image-2.webp" alt="" class="gallery_item_img">
+               <div class="gallery_item_content">
+                  <div class="gallery_item_title">Playstation 5</div>
+                  <p class="gallery_item_p">Lorem ipsum dolor sit amet consectetur adipisicing.</p><a href="#"
+                     class="gallery_item_link">SHOP NOW</a>
+               </div>
+            </div>
+            <div class="gallery_item gallery_item_3">
+               <img src="./image/gallery/image-3.jpg" alt="" class="gallery_item_img">
+               <div class="gallery_item_content">
+                  <div class="gallery_item_title">Playstation 5</div>
+                  <p class="gallery_item_p">Lorem ipsum dolor sit amet consectetur adipisicing.</p><a href="#"
+                     class="gallery_item_link">SHOP NOW</a>
+               </div>
+            </div>
+            <div class="gallery_item gallery_item_4">
+               <img src="./image/gallery/image-4.jpg" alt="" class="gallery_item_img">
+               <div class="gallery_item_content">
+                  <div class="gallery_item_title">Playstation 5</div>
+                  <p class="gallery_item_p">Lorem ipsum dolor sit amet consectetur adipisicing.</p><a href="#"
+                     class="gallery_item_link">SHOP NOW</a>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+
+   <section class="section">
+      <div class="container service_container">
+         <div class="service"><img src="./image/icons/service-1.jpg" alt="" class="service_img">
+            <h3 class="service_title">Fast And Free Delivery</h3>
+            <p class="service_p">Lorem ipsum dolor sit amet consectetur.</p>
+         </div>
+         <div class="service"><img src="./image/icons/service-2.jpg" alt="" class="service_img">
+            <h3 class="service_title">24/7 Support</h3>
+            <p class="service_p">Lorem ipsum dolor sit amet consectetur.</p>
+         </div>
+         <div class="service"><img src="./image/icons/service-3.png" alt="" class="service_img">
+            <h3 class="service_title">Money Back Guaranty</h3>
+            <p class="service_p">Lorem ipsum dolor sit amet consectetur.</p>
+         </div>
+      </div>
+   </section>
+
+   <footer class="footer">
+      <div class="container footer_container">
+         <div class="footer_item">
+            <a href="#" class="footer_logo">KHILAR</a>
+            <div class="footer_p">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam obcaecati voluptates
+               eius?</div>
+         </div>
+         <div class="footer_item">
+            <h3 class="footer_item_title">Support</h3>
+            <ul class="footer_list">
+               <li class="footer_list_item">Badasahi, Bhadrak</li>
+               <li class="footer_list_item">Khilar@gmail.com</li>
+               <li class="footer_list_item">+91 1234567890</li>
+               <li class="footer_list_item">+91 100 200 300 4</li>
+            </ul>
+         </div>
+         <div class="footer_item">
+            <h3 class="footer_item_title">Account</h3>
+            <ul class="footer_list">
+               <li class="footer_list_item"> My Account</li>
+               <li class="footer_list_item">Login / Register</li>
+               <li class="footer_list_item">Cart</li>
+               <li class="footer_list_item">Shop</li>
+            </ul>
+         </div>
+         <div class="footer_item">
+            <h3 class="footer_item_title">Quick link</h3>
+            <ul class="footer_list">
+               <li class="footer_list_item">Privacy Policy</li>
+               <li class="footer_list_item">Terms of use</li>
+               <li class="footer_list_item">FAQ'S</li>
+               <li class="footer_list_item">CONTACT</li>
+            </ul>
+         </div>
+      </div>
+      <div class="footer_bottom">
+         <div class="container footer_bottom_container">
+            <p class="footer_copy">Made with &#x2764; by Sujit Khilar</p>
+         </div>
+      </div>
+   </footer>
+
+   <!-- Swiper JS -->
+   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+   <script src="./js/app.js"></script>
+   
+</body>
+
+</html>
